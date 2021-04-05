@@ -1,3 +1,24 @@
-テスト
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+	<meta charset="UTF-8">
+	<title>Vue</title>
+</head>
+<body>
+    <div id="app">
+        <vuejs-datepicker></vuejs-datepicker>
+    </div>
 
-テスト２番目追加
+
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+<script src="https://unpkg.com/vuejs-datepicker"></script>
+<script>
+var app = new Vue({
+    el: '#app',
+    components: {
+        'vuejs-datepicker':vuejsDatepicker
+    }
+})
+</script>	
+</body>
+</html>
